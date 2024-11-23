@@ -1,0 +1,24 @@
+:root {
+  --color-1: #f4d24f;
+  --color-2: #eab124;
+  --color-3: #8c5405;
+  --light-bg: #f4f4f9;
+  --dark-bg: #161617;
+  --light-text: #333;
+  --dark-text: #fff;
+  --dark-text-1: #eee;
+  
+  --color-1-rgb: 244, 210, 79;
+  --color-2-rgb: 234, 177, 36;
+  --color-3-rgb: 140, 84, 5;
+}
+
+body {
+  font-family: "Onest", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-bg);
+  color: var(--light-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  scroll-behavior: smooth;
+}
